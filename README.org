@@ -1,0 +1,10 @@
+#+title: VSR Tracker
+
+A Poptracker pack for Vision Soft Reset [[https://store.steampowered.com/app/1005450/Vision_Soft_Reset/][(Steam)]] [[https://seafloorgames.itch.io/vision-soft-reset][(Itch)]].
+
+Has Archipelago autotracking support, for use with [[https://github.com/kumquat-ir/Archipelago/releases/latest][the Archipelago world]].
+
+To package:
+#+begin_src sh :results none
+zip "vsr-tracker-$(jq -r .package_version manifest.json).zip" -r LICENSE manifest.json images items layouts locations maps scripts
+#+end_src
