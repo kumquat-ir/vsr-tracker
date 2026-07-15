@@ -197,8 +197,10 @@
             "@Ship",
             "@Above Wall Run,energyclaw",
             "@Above Wall Run,speedboost,piercingspeed",
-            "@Endoplanetary Shield,speedboost,wallrun,chargeshot",
-            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw"
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot,$option|hardlogic|true",
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot,spindodge",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw,$option|hardlogic|true",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw,spindodge"
         ],
         "children": [
             {
@@ -1789,8 +1791,10 @@
     {
         "name": "Endoplanetary Shield -> Past First Puzzle",
         "access_rules": [
-            "@Endoplanetary Shield,speedboost,wallrun,chargeshot",
-            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw"
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot,$option|hardlogic|true",
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot,spindodge",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw,$option|hardlogic|true",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw,spindodge"
         ],
         "children": []
     },
