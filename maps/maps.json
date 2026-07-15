@@ -1,0 +1,8 @@
+[
+    {
+        "name": "map",
+        "location_size": 5,
+        "location_border_thickness": 1,
+        "img": "maps/map.png"
+    }
+]

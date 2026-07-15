@@ -1,0 +1,149 @@
+{
+    "items_all": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 36,
+        "item_width": 36,
+        "rows": [
+            [
+                "chargeshot",
+                "spindodge",
+                "d#z5~qn.p",
+                "heatresist",
+                "stripsuit"
+            ],
+            [
+                "wallrun",
+                "energyclaw",
+                "vileclaw",
+                "speedboost",
+                "piercingspeed"
+            ],
+            [
+                "spindouble",
+                "twisterjump",
+                "enginetune"
+            ],
+            [
+                "card-griger",
+                "card-solatia",
+                "card-salesman"
+            ]
+        ]
+    },
+    "items_cards": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 36,
+        "item_width": 36,
+        "rows": [
+            [
+                "chargeshot",
+                "spindodge",
+                "d#z5~qn.p",
+                "heatresist",
+                "stripsuit"
+            ],
+            [
+                "wallrun",
+                "energyclaw",
+                "vileclaw",
+                "speedboost",
+                "piercingspeed"
+            ],
+            [
+                "card-griger",
+                "card-solatia",
+                "card-salesman"
+            ]
+        ]
+    },
+    "items_decryptors": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 36,
+        "item_width": 36,
+        "rows": [
+            [
+                "chargeshot",
+                "spindodge",
+                "d#z5~qn.p",
+                "heatresist",
+                "stripsuit"
+            ],
+            [
+                "wallrun",
+                "energyclaw",
+                "vileclaw",
+                "speedboost",
+                "piercingspeed"
+            ],
+            [
+                "spindouble",
+                "twisterjump",
+                "enginetune"
+            ]
+        ]
+    },
+    "items_min": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "h_alignment": "center",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "item_height": 36,
+        "item_width": 36,
+        "rows": [
+            [
+                "chargeshot",
+                "spindodge",
+                "d#z5~qn.p",
+                "heatresist",
+                "stripsuit"
+            ],
+            [
+                "wallrun",
+                "energyclaw",
+                "vileclaw",
+                "speedboost",
+                "piercingspeed"
+            ]
+        ]
+    },
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "item_margin": "5,5",
+        "content": [
+            {
+                "type": "item",
+                "item": "hardlogic"
+            },
+            {
+                "type": "item",
+                "item": "extra_decryptors"
+            },
+            {
+                "type": "item",
+                "item": "requirebosscards"
+            },
+            {
+                "type": "item",
+                "item": "add_ambushes"
+            },
+            {
+                "type": "item",
+                "item": "add_physical"
+            }
+        ]
+    }
+}

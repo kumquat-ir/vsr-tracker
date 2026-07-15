@@ -1,0 +1,16 @@
+{
+    "name": "Vision Soft Reset Archipelago",
+    "game_name": "Vision Soft Reset",
+    "package_version": "1.0.0",
+    "package_uid": "vision soft reset ap",
+    "author": "hellfall",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0"
+}

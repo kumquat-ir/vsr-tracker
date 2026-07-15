@@ -1,0 +1,1826 @@
+[
+    {
+        "name": "Ship",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Decryptor: Charge Shot",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 193,
+                        "y": 105
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Decryptor: Charge Magnet",
+                "access_rules": [
+                    "chargeshot",
+                    "energyclaw,vileclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 139,
+                        "y": 99
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 02: Ciurivy",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 112,
+                        "y": 87
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 07: Sealime",
+                "access_rules": [
+                    "speedboost,wallrun",
+                    "spindodge,spindouble,wallrun"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 121,
+                        "y": 81
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 24: Oracle-L",
+                "access_rules": [
+                    "stripsuit"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 94,
+                        "y": 99
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "First Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 130,
+                        "y": 93
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ambush Before Charge Shot",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 184,
+                        "y": 99
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "First Health Upgrade",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 175,
+                        "y": 105
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "First Puzzle Solution",
+        "access_rules": [
+            "@Ship,chargeshot",
+            "@Ship,energyclaw,vileclaw",
+            "@Spin Dodge Area,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Card 06: Prittle",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 111
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Past First Puzzle",
+        "access_rules": [
+            "@Ship",
+            "@Above Wall Run,energyclaw",
+            "@Above Wall Run,speedboost,piercingspeed",
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw"
+        ],
+        "children": [
+            {
+                "name": "Card 03: Smosey",
+                "access_rules": [
+                    "wallrun,spindodge,$option|hardlogic|true",
+                    "wallrun,spindodge,chargeshot"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 184,
+                        "y": 117
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 05: Midow",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 175,
+                        "y": 123
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 08: Toucade",
+                "access_rules": [
+                    "spindodge"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 166,
+                        "y": 105
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Above First Puzzle",
+        "access_rules": [
+            "@Ship,chargeshot",
+            "@Ship,energyclaw,vileclaw",
+            "@Ship,wallrun",
+            "@Mountain Chamber"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Altered Shot",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 157,
+                        "y": 93
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Power Area",
+        "access_rules": [
+            "@Ship,chargeshot",
+            "@Ship,energyclaw,vileclaw",
+            "@After Griger,energyclaw",
+            "@After Griger,speedboost,piercingspeed",
+            "@Under Beach"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Charge Grip",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 85,
+                        "y": 117
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Decryptor: Golden View",
+                "access_rules": [
+                    "@Power Area"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 58,
+                        "y": 111
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 01: Magoom",
+                "access_rules": [
+                    "@Power Area"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 76,
+                        "y": 117
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Power Area Lower Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 85,
+                        "y": 123
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pre-Spin Dodge",
+        "access_rules": [
+            "@Past First Puzzle,@Power Area",
+            "@Past First Puzzle,wallrun",
+            "@Past First Puzzle,spindodge",
+            "@Spin Dodge Area,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Pre-Spin Dodge Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 211,
+                        "y": 135
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pre-Spin Dodge Health Upgrade",
+                "access_rules": [
+                    "chargeshot",
+                    "energyclaw,vileclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 202,
+                        "y": 135
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spin Dodge Area",
+        "access_rules": [
+            "@First Puzzle Solution,$option|hardlogic|true",
+            "@Pre-Spin Dodge"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Spin Dodge",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 229,
+                        "y": 141
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Griger",
+        "access_rules": [
+            "@After Griger,energyclaw",
+            "@Griger's Base (Top),wallrun",
+            "@Griger's Base (Top),spindodge"
+        ],
+        "children": [
+            {
+                "name": "Griger Fight",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Decryptor: Energy Claw",
+                        "access_rules": [
+                            "wallrun,$option|requirebosscards|false",
+                            "wallrun,card-griger",
+                            "spindodge,$option|requirebosscards|false",
+                            "spindodge,card-griger"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Card 20: Griger",
+                        "access_rules": [
+                            "energyclaw,wallrun,$option|requirebosscards|false",
+                            "energyclaw,wallrun,card-griger",
+                            "energyclaw,spindodge,$option|requirebosscards|false",
+                            "energyclaw,spindodge,card-griger"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 121,
+                        "y": 111
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "After Griger",
+        "access_rules": [
+            "@Ship,stripsuit",
+            "@Power Area,energyclaw",
+            "@Power Area,speedboost,piercingspeed,enginetune",
+            "@Griger,energyclaw",
+            "@Griger,speedboost,piercingspeed,enginetune"
+        ],
+        "children": []
+    },
+    {
+        "name": "Claw Bounce Area",
+        "access_rules": [
+            "@Wall Run Area,wallrun,spindodge",
+            "@Griger's Base (Bottom Right),energyclaw,spindodge",
+            "@Orb A,spindodge,energyclaw"
+        ],
+        "children": [
+            {
+                "name": "Claw Bounce Ambush",
+                "access_rules": [
+                    "spindodge,chargeshot",
+                    "spindodge,energyclaw,vileclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 103,
+                        "y": 165
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wall Run Area",
+        "access_rules": [
+            "@Claw Bounce Area,chargeshot,wallrun",
+            "@Claw Bounce Area,chargeshot,spindodge",
+            "@Claw Bounce Area,energyclaw,vileclaw,wallrun",
+            "@Claw Bounce Area,energyclaw,vileclaw,spindodge",
+            "@Above Wall Run,wallrun,spindodge",
+            "@Above Wall Run,spindodge,spindouble"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Wall Run",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 157,
+                        "y": 165
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Above Wall Run",
+        "access_rules": [
+            "@Past First Puzzle,energyclaw",
+            "@Past First Puzzle,speedboost,piercingspeed",
+            "@Wall Run Area,wallrun,spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Griger's Base (Top)",
+        "access_rules": [
+            "@Past First Puzzle,@Power Area,spindodge",
+            "@Past First Puzzle,energyclaw",
+            "@Past First Puzzle,speedboost,piercingspeed",
+            "@Past First Puzzle,spindodge,spindouble",
+            "@Griger",
+            "@Griger's Base (Central),spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Griger's Base (Central)",
+        "access_rules": [
+            "@Griger's Base (Top)",
+            "@Griger's Base (Left),energyclaw,wallrun",
+            "@Griger's Base (Left),energyclaw,spindodge",
+            "@Griger's Base (Bottom Right),wallrun,energyclaw",
+            "@Griger's Base (Bottom Left),wallrun,energyclaw"
+        ],
+        "children": []
+    },
+    {
+        "name": "Griger's Base (Right)",
+        "access_rules": [
+            "@Griger's Base (Central),chargeshot,wallrun",
+            "@Griger's Base (Central),chargeshot,spindodge",
+            "@Griger's Base (Central),energyclaw",
+            "@Griger's Base (Central),speedboost,piercingspeed,enginetune"
+        ],
+        "children": [
+            {
+                "name": "Card 04: Wavemoth",
+                "access_rules": [
+                    "wallrun",
+                    "spindodge"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 139,
+                        "y": 123
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cottospark Ambush",
+                "access_rules": [
+                    "spindodge,chargeshot",
+                    "spindodge,energyclaw,vileclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 148,
+                        "y": 135
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Griger's Base (Left)",
+        "access_rules": [
+            "@Griger's Base (Central),spindodge,energyclaw",
+            "@Griger's Base (Central),spindodge,speedboost,piercingspeed",
+            "@Griger's Base (Central),wallrun,energyclaw",
+            "@Above Orb A,wallrun"
+        ],
+        "children": [
+            {
+                "name": "Phase Upgrade Outside Griger's Base",
+                "access_rules": [
+                    "wallrun",
+                    "spindodge"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 76,
+                        "y": 135
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Griger's Base (Bottom Right)",
+        "access_rules": [
+            "@Claw Bounce Area,energyclaw,wallrun",
+            "@Claw Bounce Area,energyclaw,spindodge",
+            "@Above Wall Run,speedboost,wallrun,spindodge",
+            "@Above Wall Run,speedboost,spindodge,spindouble",
+            "@Griger's Base (Central),wallrun,chargeshot",
+            "@Griger's Base (Central),wallrun,energyclaw",
+            "@Griger's Base (Central),wallrun,speedboost,piercingspeed",
+            "@Griger's Base (Central),spindodge,chargeshot",
+            "@Griger's Base (Central),spindodge,energyclaw",
+            "@Griger's Base (Central),spindodge,speedboost,piercingspeed",
+            "@Griger's Base (Powerless Room),wallrun",
+            "@Griger's Base (Powerless Room),spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Griger's Base (Bottom Left)",
+        "access_rules": [
+            "@Griger's Base (Central),energyclaw",
+            "@Griger's Base (Central),speedboost,piercingspeed,enginetune",
+            "@Griger's Base (Central),chargeshot,spindodge",
+            "@Griger's Base (Powerless Room),energyclaw",
+            "@Griger's Base (Powerless Room),speedboost,piercingspeed,enginetune"
+        ],
+        "children": [
+            {
+                "name": "Block Puzzle Ambush",
+                "access_rules": [
+                    "spindodge,chargeshot",
+                    "spindodge,energyclaw,vileclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 121,
+                        "y": 153
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Griger's Base (Powerless Room)",
+        "access_rules": [
+            "@Griger's Base (Bottom Right),wallrun,@After Griger -> Griger",
+            "@Griger's Base (Bottom Right),wallrun,@Claw Bounce Area -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Right),wallrun,@Griger's Base (Left) -> Griger's Base (Central)",
+            "@Griger's Base (Bottom Right),wallrun,@Above Wall Run -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Right),wallrun,@Past First Puzzle -> Griger's Base (Top),energyclaw",
+            "@Griger's Base (Bottom Right),wallrun,@Past First Puzzle -> Griger's Base (Top),speedboost,piercingspeed",
+            "@Griger's Base (Bottom Right),spindodge,@After Griger -> Griger",
+            "@Griger's Base (Bottom Right),spindodge,@Claw Bounce Area -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Right),spindodge,@Griger's Base (Left) -> Griger's Base (Central)",
+            "@Griger's Base (Bottom Right),spindodge,@Above Wall Run -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Right),spindodge,@Past First Puzzle -> Griger's Base (Top),energyclaw",
+            "@Griger's Base (Bottom Right),spindodge,@Past First Puzzle -> Griger's Base (Top),speedboost,piercingspeed",
+            "@Griger's Base (Bottom Right),spindodge,@Past First Puzzle -> Griger's Base (Top),spindouble",
+            "@Griger's Base (Bottom Left),wallrun,@After Griger -> Griger",
+            "@Griger's Base (Bottom Left),wallrun,@Claw Bounce Area -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Left),wallrun,@Griger's Base (Left) -> Griger's Base (Central)",
+            "@Griger's Base (Bottom Left),wallrun,@Above Wall Run -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Left),wallrun,@Past First Puzzle -> Griger's Base (Top),energyclaw",
+            "@Griger's Base (Bottom Left),wallrun,@Past First Puzzle -> Griger's Base (Top),speedboost,piercingspeed",
+            "@Griger's Base (Bottom Left),spindodge,@After Griger -> Griger",
+            "@Griger's Base (Bottom Left),spindodge,@Claw Bounce Area -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Left),spindodge,@Griger's Base (Left) -> Griger's Base (Central)",
+            "@Griger's Base (Bottom Left),spindodge,@Above Wall Run -> Griger's Base (Bottom Right)",
+            "@Griger's Base (Bottom Left),spindodge,@Past First Puzzle -> Griger's Base (Top),energyclaw",
+            "@Griger's Base (Bottom Left),spindodge,@Past First Puzzle -> Griger's Base (Top),speedboost,piercingspeed",
+            "@Griger's Base (Bottom Left),spindodge,@Past First Puzzle -> Griger's Base (Top),spindouble"
+        ],
+        "children": [
+            {
+                "name": "Card 10: Pengrunt",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 139,
+                        "y": 150
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Left of Ship",
+        "access_rules": [
+            "@Ship,wallrun",
+            "@Ship,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Card 13: Drilbas",
+                "access_rules": [
+                    "wallrun,spindodge"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 76,
+                        "y": 75
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Phase Upgrade Left of Ship",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 58,
+                        "y": 93
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Under Beach",
+        "access_rules": [
+            "@Power Area,wallrun",
+            "@Power Area,spindodge",
+            "@Above Orb A,speedboost,wallrun"
+        ],
+        "children": [
+            {
+                "name": "Power Area Upper Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 49,
+                        "y": 111
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Beach",
+        "access_rules": [
+            "@Left of Ship,energyclaw",
+            "@Left of Ship,speedboost,piercingspeed,enginetune",
+            "@Under Beach,spindodge",
+            "@Underwater,stripsuit"
+        ],
+        "children": [
+            {
+                "name": "Card 09: Shaifi",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 13,
+                        "y": 141
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Card 14: Jinvell",
+                "access_rules": [
+                    "speedboost,wallrun,spindodge"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 22,
+                        "y": 105
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Underwater",
+        "access_rules": [
+            "@Beach,spindodge,chargeshot",
+            "@Beach,spindodge,energyclaw,vileclaw",
+            "@Beach,speedboost,wallrun,chargeshot",
+            "@Beach,speedboost,wallrun,energyclaw,vileclaw",
+            "@Beach,stripsuit",
+            "@Orb A,wallrun",
+            "@Orb A,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Ghostily Chase",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Decryptor: Shell Escape",
+                        "access_rules": [
+                            "stripsuit"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Card 18: Ghostily",
+                        "access_rules": [
+                            "stripsuit"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 13,
+                        "y": 153
+                    }
+                ]
+            },
+            {
+                "name": "Underwater Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 40,
+                        "y": 171
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orb A",
+        "access_rules": [
+            "@Claw Bounce Area,spindodge,energyclaw",
+            "@Underwater,wallrun",
+            "@Underwater,spindodge",
+            "@Above Orb A"
+        ],
+        "children": [
+            {
+                "name": "Orb A",
+                "access_rules": [
+                    "spindodge",
+                    "speedboost,wallrun"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 54,
+                        "y": 156
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Above Orb A",
+        "access_rules": [
+            "@Griger's Base (Left),energyclaw,wallrun,spindodge",
+            "@Griger's Base (Left),energyclaw,spindodge,spindouble",
+            "@Under Beach,speedboost,enginetune",
+            "@Orb A,wallrun,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Cotto Cards",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Card 11: Cottospark",
+                        "access_rules": [
+                            "speedboost,wallrun",
+                            "speedboost,spindodge"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Card 12: Cottocache",
+                        "access_rules": [
+                            "speedboost,wallrun",
+                            "speedboost,spindodge"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 40,
+                        "y": 117
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Endoplanetary Shield",
+        "access_rules": [
+            "@Past First Puzzle,chargeshot",
+            "@Past First Puzzle,energyclaw,vileclaw",
+            "@Hot Water Area,wallrun"
+        ],
+        "children": []
+    },
+    {
+        "name": "Hot Water Area",
+        "access_rules": [
+            "@Endoplanetary Shield,wallrun,spindodge,heatresist",
+            "@Endoplanetary Shield,wallrun,spindodge,spindouble",
+            "@Warehouse,speedboost"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Vile Claw",
+                "access_rules": [
+                    "energyclaw"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 265,
+                        "y": 195
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Warehouse",
+        "access_rules": [
+            "@Hot Water Area,speedboost,wallrun,heatresist,spindodge",
+            "@Hot Water Area,speedboost,wallrun,spindodge,spindouble",
+            "@Mountain Fall,stripsuit"
+        ],
+        "children": [
+            {
+                "name": "Post-Glitch Fight",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Decryptor: Strip Suit",
+                        "access_rules": [
+                            "wallrun,spindodge,d#z5~qn.p"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Decryptor: Virus Wipe",
+                        "access_rules": [
+                            "wallrun,spindodge,d#z5~qn.p"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 283,
+                        "y": 159
+                    }
+                ]
+            },
+            {
+                "name": "Warehouse Entry Health Upgrade",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 274,
+                        "y": 171
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orb D",
+        "access_rules": [
+            "@Warehouse,stripsuit"
+        ],
+        "children": [
+            {
+                "name": "Orb D",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Card 23: Oracle",
+                        "access_rules": null,
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Orb D",
+                        "access_rules": null,
+                        "visibility_rules": [
+                            "$option|add_physical|true"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 288,
+                        "y": 144
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floatlands Entry",
+        "access_rules": [
+            "@Left of Ship,wallrun,spindodge",
+            "@Upper Floatlands",
+            "@Orb B,spindodge",
+            "@Floatlands Ambush,spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Upper Floatlands",
+        "access_rules": [
+            "@Floatlands Entry,wallrun,spindodge,@Power Area",
+            "@Floatlands Entry,wallrun,spindodge,spindouble",
+            "@Orb B,wallrun,spindodge,spindouble",
+            "@Orb B,wallrun,spindodge,speedboost",
+            "@Right Floatlands,energyclaw",
+            "@Right Floatlands,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Card 15: Royalrose",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 94,
+                        "y": 39
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Floatlands Health Upgrade",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 76,
+                        "y": 39
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lower Floatlands",
+        "access_rules": [
+            "@Floatlands Entry,spindodge",
+            "@Orb B",
+            "@Floatlands Ambush,spindodge",
+            "@Floatlands Ambush,speedboost"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Mental Recovery",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 103,
+                        "y": 69
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orb B",
+        "access_rules": [
+            "@Floatlands Entry,wallrun,spindodge",
+            "@Upper Floatlands",
+            "@Lower Floatlands,wallrun,spindodge",
+            "@Floatlands Ambush,wallrun,spindodge",
+            "@Floatlands Ambush,wallrun,speedboost"
+        ],
+        "children": [
+            {
+                "name": "Card 16: Rupo",
+                "access_rules": [
+                    "speedboost,wallrun"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 76,
+                        "y": 51
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Orb B",
+                "access_rules": [
+                    "spindodge",
+                    "@Upper Floatlands -> Orb B",
+                    "speedboost,wallrun"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 90,
+                        "y": 48
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Floatlands Ambush",
+        "access_rules": [
+            "@Orb B",
+            "@Right Floatlands",
+            "@Solatia Run,speedboost"
+        ],
+        "children": [
+            {
+                "name": "Floatlands Ambush",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 103,
+                        "y": 57
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_ambushes|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Right Floatlands",
+        "access_rules": [
+            "@Upper Floatlands,spindodge,energyclaw",
+            "@Upper Floatlands,spindodge,spindouble",
+            "@Upper Floatlands,spindodge,twisterjump",
+            "@Floatlands Ambush,wallrun"
+        ],
+        "children": [
+            {
+                "name": "Card 19: Sherivice",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 121,
+                        "y": 39
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Solatia",
+        "access_rules": [
+            "@Right Floatlands,wallrun,spindodge,@Upper Floatlands,@Lower Floatlands,@Floatlands Entry,@Power Area,$option|requirebosscards|false",
+            "@Right Floatlands,wallrun,spindodge,@Upper Floatlands,@Lower Floatlands,@Floatlands Entry,@Power Area,card-solatia",
+            "@Right Floatlands,wallrun,spindodge,speedboost,$option|requirebosscards|false",
+            "@Right Floatlands,wallrun,spindodge,speedboost,card-solatia"
+        ],
+        "children": [
+            {
+                "name": "Card 21: Solatia",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 121,
+                        "y": 51
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Solatia Run",
+        "access_rules": [
+            "@Floatlands Ambush,speedboost",
+            "@Solatia",
+            "@Upper Mountain,speedboost"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Speed Boost",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 130,
+                        "y": 57
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Upper Mountain",
+        "access_rules": [
+            "@Solatia Run,speedboost,wallrun",
+            "@Mountain Chamber,wallrun,spindodge",
+            "@Mountain Fall,wallrun,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Piercing Speed",
+                "access_rules": [
+                    "wallrun,spindodge,speedboost",
+                    "wallrun,spindodge,spindouble,twisterjump"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 256,
+                        "y": 39
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Save Point Wall",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Card 22: Salesman",
+                        "access_rules": [
+                            "@Ship,@First Puzzle Solution,@Past First Puzzle,@Endoplanetary Shield,@Power Area,@Griger's Base (Top),@Underwater,@Orb A,@Claw Bounce Area,@Floatlands Entry,@Solatia Run,@Mountain Chamber,@Mountain Fall,@Warehouse,@Warehouse -> Hot Water Area,@Hot Water Area -> Endoplanetary Shield,@Endoplanetary Shield -> Past First Puzzle,@Mountaintop"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Upper Mountain Phase Upgrade",
+                        "access_rules": null,
+                        "visibility_rules": [
+                            "$option|add_physical|true"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 39
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mountain Chamber",
+        "access_rules": [
+            "@Above First Puzzle,wallrun,spindodge",
+            "@Above First Puzzle,speedboost,wallrun",
+            "@Upper Mountain",
+            "@Mountain Water Run,wallrun,spindodge",
+            "@Mountain Water Run,speedboost,wallrun"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Heat Resist",
+                "access_rules": [
+                    "wallrun,chargeshot,@Above First Puzzle -> Mountain Chamber",
+                    "wallrun,chargeshot,@Ship -> Mountain Water Run,@Mountain Water Run -> Mountain Chamber",
+                    "wallrun,energyclaw,vileclaw,@Above First Puzzle -> Mountain Chamber",
+                    "wallrun,energyclaw,vileclaw,@Ship -> Mountain Water Run,@Mountain Water Run -> Mountain Chamber",
+                    "spindodge,chargeshot,@Above First Puzzle -> Mountain Chamber",
+                    "spindodge,chargeshot,@Ship -> Mountain Water Run,@Mountain Water Run -> Mountain Chamber",
+                    "spindodge,energyclaw,vileclaw,@Above First Puzzle -> Mountain Chamber",
+                    "spindodge,energyclaw,vileclaw,@Ship -> Mountain Water Run,@Mountain Water Run -> Mountain Chamber"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 202,
+                        "y": 75
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mountain Water Run",
+        "access_rules": [
+            "@Ship,speedboost,wallrun",
+            "@Mountain Chamber",
+            "@Orb C,wallrun"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: Double Shot",
+                "access_rules": [
+                    "speedboost"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 193,
+                        "y": 93
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Orb C",
+        "access_rules": [
+            "@Mountain Chamber,stripsuit",
+            "@Mountain Chamber,$option|hardlogic|true,wallrun,spindodge,spindouble",
+            "@Mountain Fall"
+        ],
+        "children": [
+            {
+                "name": "Decryptor: d#Z 5~qn. P",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 247,
+                        "y": 87
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Orb C",
+                "access_rules": [
+                    "wallrun",
+                    "spindodge,spindouble",
+                    "spindodge,twisterjump"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 234,
+                        "y": 84
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mountain Fall",
+        "access_rules": [
+            "@Upper Mountain",
+            "@Orb C,wallrun",
+            "@Orb C,spindodge"
+        ],
+        "children": [
+            {
+                "name": "Card 17: Froesburn",
+                "access_rules": [
+                    "stripsuit"
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 265,
+                        "y": 123
+                    }
+                ],
+                "visibility_rules": null,
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lower Mountain Phase Upgrade",
+                "access_rules": null,
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 256,
+                        "y": 87
+                    }
+                ],
+                "visibility_rules": [
+                    "$option|add_physical|true"
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mountaintop",
+        "access_rules": [
+            "@Upper Mountain,wallrun,spindodge,@Warehouse -> Hot Water Area,@Hot Water Area -> Endoplanetary Shield,@Endoplanetary Shield -> Past First Puzzle,@Orb A,@Orb B,@Orb C,@Orb D"
+        ],
+        "children": [
+            {
+                "name": "Defeat Salesman",
+                "access_rules": null,
+                "sections": [
+                    {
+                        "name": "Victory",
+                        "access_rules": [
+                            "$option|requirebosscards|false",
+                            "card-salesman"
+                        ],
+                        "visibility_rules": null,
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 211,
+                        "y": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Ship -> Mountain Water Run",
+        "access_rules": [
+            "@Ship,speedboost,wallrun"
+        ],
+        "children": []
+    },
+    {
+        "name": "Past First Puzzle -> Griger's Base (Top)",
+        "access_rules": [
+            "@Past First Puzzle,@Power Area,spindodge",
+            "@Past First Puzzle,energyclaw",
+            "@Past First Puzzle,speedboost,piercingspeed",
+            "@Past First Puzzle,spindodge,spindouble"
+        ],
+        "children": []
+    },
+    {
+        "name": "Above First Puzzle -> Mountain Chamber",
+        "access_rules": [
+            "@Above First Puzzle,wallrun,spindodge",
+            "@Above First Puzzle,speedboost,wallrun"
+        ],
+        "children": []
+    },
+    {
+        "name": "After Griger -> Griger",
+        "access_rules": [
+            "@After Griger,energyclaw"
+        ],
+        "children": []
+    },
+    {
+        "name": "Claw Bounce Area -> Griger's Base (Bottom Right)",
+        "access_rules": [
+            "@Claw Bounce Area,energyclaw,wallrun",
+            "@Claw Bounce Area,energyclaw,spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Above Wall Run -> Griger's Base (Bottom Right)",
+        "access_rules": [
+            "@Above Wall Run,speedboost,wallrun,spindodge",
+            "@Above Wall Run,speedboost,spindodge,spindouble"
+        ],
+        "children": []
+    },
+    {
+        "name": "Griger's Base (Left) -> Griger's Base (Central)",
+        "access_rules": [
+            "@Griger's Base (Left),energyclaw,wallrun",
+            "@Griger's Base (Left),energyclaw,spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Endoplanetary Shield -> Past First Puzzle",
+        "access_rules": [
+            "@Endoplanetary Shield,speedboost,wallrun,chargeshot",
+            "@Endoplanetary Shield,speedboost,wallrun,energyclaw,vileclaw"
+        ],
+        "children": []
+    },
+    {
+        "name": "Hot Water Area -> Endoplanetary Shield",
+        "access_rules": [
+            "@Hot Water Area,wallrun"
+        ],
+        "children": []
+    },
+    {
+        "name": "Warehouse -> Hot Water Area",
+        "access_rules": [
+            "@Warehouse,speedboost"
+        ],
+        "children": []
+    },
+    {
+        "name": "Upper Floatlands -> Orb B",
+        "access_rules": [
+            "@Upper Floatlands"
+        ],
+        "children": []
+    },
+    {
+        "name": "Mountain Water Run -> Mountain Chamber",
+        "access_rules": [
+            "@Mountain Water Run,wallrun,spindodge",
+            "@Mountain Water Run,speedboost,wallrun"
+        ],
+        "children": []
+    }
+]

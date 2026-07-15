@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Hard Logic",
+        "type": "toggle",
+        "img": "images/hardlogic.png",
+        "codes": "hardlogic"
+    },
+    {
+        "name": "Extra Decryptors",
+        "type": "toggle",
+        "img": "images/extradecryptors.png",
+        "codes": "extra_decryptors"
+    },
+    {
+        "name": "Require Boss Cards",
+        "type": "toggle",
+        "img": "images/requirebosscards.png",
+        "codes": "requirebosscards"
+    },
+    {
+        "name": "Add Ambushes",
+        "type": "toggle",
+        "img": "images/addambushes.png",
+        "codes": "add_ambushes"
+    },
+    {
+        "name": "Add Physical",
+        "type": "toggle",
+        "img": "images/addphysical.png",
+        "codes": "add_physical"
+    }
+]

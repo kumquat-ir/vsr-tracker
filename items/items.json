@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Charge Shot",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "chargeshot"
+    },
+    {
+        "name": "Wall Run",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "wallrun"
+    },
+    {
+        "name": "Spin Dodge",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "spindodge"
+    },
+    {
+        "name": "Heat Resist",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "heatresist"
+    },
+    {
+        "name": "Energy Claw",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "energyclaw"
+    },
+    {
+        "name": "Strip Suit",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "stripsuit"
+    },
+    {
+        "name": "Speed Boost",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "speedboost"
+    },
+    {
+        "name": "Vile Claw",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "vileclaw"
+    },
+    {
+        "name": "Piercing Speed",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "piercingspeed"
+    },
+    {
+        "name": "d#Z 5~qn. P",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "d#z5~qn.p"
+    },
+    {
+        "name": "Spin Double",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "spindouble"
+    },
+    {
+        "name": "Twister Jump",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "twisterjump"
+    },
+    {
+        "name": "Engine Tune",
+        "type": "toggle",
+        "img": "images/decryptor.png",
+        "codes": "enginetune"
+    },
+    {
+        "name": "Card: Griger",
+        "type": "toggle",
+        "img": "images/card.png",
+        "codes": "card-griger"
+    },
+    {
+        "name": "Card: Solatia",
+        "type": "toggle",
+        "img": "images/card.png",
+        "codes": "card-solatia"
+    },
+    {
+        "name": "Card: Salesman",
+        "type": "toggle",
+        "img": "images/card.png",
+        "codes": "card-salesman"
+    }
+]

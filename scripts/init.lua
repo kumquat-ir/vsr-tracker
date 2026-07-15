@@ -1,0 +1,10 @@
+Tracker:AddMaps("maps/maps.json")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
+Tracker:AddLocations("locations/locations.json")
+Tracker:AddLayouts("layouts/parts.json")
+Tracker:AddLayouts("layouts/tracker.json")
+
+ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/layout.lua")
+ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
