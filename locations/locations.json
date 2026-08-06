@@ -1051,7 +1051,7 @@
                         "name": "Card 11: Cottospark",
                         "access_rules": [
                             "speedboost,wallrun",
-                            "speedboost,spindodge"
+                            "@Under Beach -> Above Orb A,spindodge"
                         ],
                         "visibility_rules": null,
                         "item_count": 1
@@ -1060,7 +1060,7 @@
                         "name": "Card 12: Cottocache",
                         "access_rules": [
                             "speedboost,wallrun",
-                            "speedboost,spindodge"
+                            "@Under Beach -> Above Orb A,spindodge"
                         ],
                         "visibility_rules": null,
                         "item_count": 1
@@ -1388,9 +1388,9 @@
     {
         "name": "Right Floatlands",
         "access_rules": [
+            "@Upper Floatlands,spindodge,$option|hardlogic|true",
             "@Upper Floatlands,spindodge,energyclaw",
             "@Upper Floatlands,spindodge,spindouble",
-            "@Upper Floatlands,spindodge,twisterjump",
             "@Floatlands Ambush,wallrun"
         ],
         "children": [
@@ -1483,7 +1483,7 @@
                 "name": "Decryptor: Piercing Speed",
                 "access_rules": [
                     "wallrun,spindodge,speedboost",
-                    "wallrun,spindodge,spindouble,twisterjump"
+                    "wallrun,spindodge,spindouble,$option|hardlogic|true"
                 ],
                 "map_locations": [
                     {
@@ -1631,7 +1631,7 @@
                 "access_rules": [
                     "wallrun",
                     "spindodge,spindouble",
-                    "spindodge,twisterjump"
+                    "$option|hardlogic|true,spindodge"
                 ],
                 "map_locations": [
                     {
@@ -1785,6 +1785,13 @@
         "access_rules": [
             "@Griger's Base (Left),energyclaw,wallrun",
             "@Griger's Base (Left),energyclaw,spindodge"
+        ],
+        "children": []
+    },
+    {
+        "name": "Under Beach -> Above Orb A",
+        "access_rules": [
+            "@Under Beach,speedboost,enginetune"
         ],
         "children": []
     },

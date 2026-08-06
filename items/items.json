@@ -66,12 +66,6 @@
         "codes": "spindouble"
     },
     {
-        "name": "Twister Jump",
-        "type": "toggle",
-        "img": "images/decryptor.png",
-        "codes": "twisterjump"
-    },
-    {
         "name": "Engine Tune",
         "type": "toggle",
         "img": "images/decryptor.png",

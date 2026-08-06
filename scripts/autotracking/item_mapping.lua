@@ -14,7 +14,6 @@ ITEM_MAPPING = {
   [113] = { "piercingspeed", "toggle" },
   [115] = { "d#z5~qn.p", "toggle" },
   [118] = { "spindouble", "toggle" },
-  [119] = { "twisterjump", "toggle" },
   [121] = { "enginetune", "toggle" },
   [220] = { "card-griger", "toggle" },
   [221] = { "card-solatia", "toggle" },
